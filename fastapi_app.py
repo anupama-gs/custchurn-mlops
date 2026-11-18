@@ -22,7 +22,7 @@ mlflow.set_tracking_uri(
 #Load Registered ML Model
 MODEL_URI = os.getenv(
     "MODEL_URI",
-    "models:/LogisticRegressionModelRegistered./3"
+    "models:/LogisticRegressionModelRegistered./4"
 )
 
 print("Tracking URI:", mlflow.get_tracking_uri())

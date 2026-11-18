@@ -4,8 +4,9 @@ from sklearn.metrics import accuracy_score
 
 
 def test_model_accuracy():
+
     model = joblib.load("models/best_model.pkl")
-    df = pd.read_csv("data/test.csv")
+    df = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
     df["TotalCharges"] = pd.to_numeric(
         df["TotalCharges"], errors="coerce"
