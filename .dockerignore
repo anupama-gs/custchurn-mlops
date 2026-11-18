@@ -1,0 +1,11 @@
+mlops_env/
+venv/
+_pycache_/
+.ipynb_chekcpoints/
+.git/
+.dvc/cache/
+mlartifacts/
+*.ipynb
+*.csv
+*.db
+.dvc
